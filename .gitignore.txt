@@ -1,0 +1,11 @@
+# Ignore Python virtual environments
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore large files and model outputs
+*.pt
+*.pth
+runs/
+.DS_Store
