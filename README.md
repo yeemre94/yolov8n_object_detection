@@ -26,7 +26,6 @@ Develop an end-to-end object detection solution using YOLOv8, with the following
 - Model fine-tuning on custom dataset
 - Inference on both local images and webcam input
 - Visual outputs with bounding boxes and class confidence
-- Performance tracking with validation metrics
 
 ## 📊 Results
 - Object detection with real-time or static images
@@ -40,10 +39,10 @@ pip install ultralytics opencv-python matplotlib
 To set up a virtual environment:
 
 python -m venv .venv
-.venv\Scripts\activate  # or source .venv/bin/activate (Mac/Linux)
+.venv\Scripts\activate 
 pip install -r requirements.txt
 
-🧪 Getting Started
+Getting Started
 Run the notebook from notebooks/yolo_obj_det.ipynb to:
 
 Prepare the data
